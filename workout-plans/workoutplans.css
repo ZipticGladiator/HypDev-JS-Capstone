@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #3882f6;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9faf8;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td:last-child {
+  white-space: nowrap;
+}
+
+td:last-child:before {
+  content: "\f05a";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+td:last-child:hover:before {
+  color: #3882f6;
+}/*# sourceMappingURL=workoutplans.css.map */
